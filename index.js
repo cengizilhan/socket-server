@@ -8,7 +8,7 @@ const io = require("socket.io")(http, {
   },
   allowEIO3: true,
 });
-const port = rocess.env.PORT || 80;
+const port = process.env.PORT || 80;
 
 let users = [];
 let messages = [];
